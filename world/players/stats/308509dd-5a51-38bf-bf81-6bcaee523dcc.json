@@ -1,0 +1,72 @@
+{
+  "stats": {
+    "minecraft:killed_by": {
+      "minecraft:zombie": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:polished_andesite_slab": 1,
+      "minecraft:cactus": 1
+    },
+    "minecraft:used": {
+      "minecraft:brewing_stand": 1,
+      "minecraft:smooth_stone": 4,
+      "minecraft:lava_bucket": 1,
+      "minecraft:polished_deepslate_stairs": 12,
+      "minecraft:spruce_planks": 52,
+      "minecraft:cobblestone_slab": 6,
+      "minecraft:smoker": 10,
+      "minecraft:campfire": 10,
+      "minecraft:cobblestone": 2,
+      "minecraft:cooked_beef": 1,
+      "minecraft:soul_sand": 1,
+      "minecraft:polished_andesite": 60,
+      "minecraft:water_bucket": 53,
+      "minecraft:tinted_glass": 1,
+      "minecraft:jungle_planks": 107,
+      "minecraft:item_frame": 5,
+      "minecraft:oak_sign": 21,
+      "minecraft:spruce_trapdoor": 21,
+      "minecraft:cauldron": 2,
+      "minecraft:polished_andesite_slab": 7,
+      "minecraft:flower_pot": 3,
+      "minecraft:black_stained_glass": 2,
+      "minecraft:dirt": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:cobblestone_slab": 1,
+      "minecraft:polished_andesite_slab": 1,
+      "minecraft:dirt": 2,
+      "minecraft:mossy_cobblestone": 26,
+      "minecraft:blaze_rod": 1,
+      "minecraft:item_frame": 1,
+      "minecraft:cactus": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 28553,
+      "minecraft:walk_one_cm": 114211,
+      "minecraft:leave_game": 2,
+      "minecraft:walk_under_water_one_cm": 8536,
+      "minecraft:damage_taken": 290,
+      "minecraft:play_time": 29296,
+      "minecraft:damage_dealt": 159,
+      "minecraft:jump": 167,
+      "minecraft:time_since_death": 28533,
+      "minecraft:drop": 2,
+      "minecraft:sprint_one_cm": 17097,
+      "minecraft:fill_cauldron": 2,
+      "minecraft:fall_one_cm": 6376,
+      "minecraft:total_world_time": 29296,
+      "minecraft:fly_one_cm": 22380,
+      "minecraft:walk_on_water_one_cm": 6612,
+      "minecraft:pot_flower": 3,
+      "minecraft:crouch_one_cm": 1151,
+      "minecraft:sneak_time": 841,
+      "minecraft:climb_one_cm": 13148,
+      "minecraft:deaths": 1
+    },
+    "minecraft:mined": {
+      "minecraft:dirt": 1
+    }
+  },
+  "DataVersion": 4903
+}
