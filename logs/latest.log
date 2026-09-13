@@ -1,579 +1,171 @@
-[20:37:43] [ServerMain/INFO]: [bootstrap] Running Java 26 (OpenJDK 64-Bit Server VM 26+35-2893; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[20:37:43] [ServerMain/INFO]: [bootstrap] Loading Purpur 26.2-2608-HEAD@ed29e99 (2026-07-13T02:04:00Z) for Minecraft 26.2
-[20:37:59] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[20:38:07] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
-[20:38:07] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[18:12:53] [ServerMain/INFO]: [bootstrap] Running Java 26 (OpenJDK 64-Bit Server VM 26+35-2893; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[18:12:53] [ServerMain/INFO]: [bootstrap] Loading Purpur 26.2-2608-HEAD@ed29e99 (2026-07-13T02:04:00Z) for Minecraft 26.2
+[18:13:09] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:13:15] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
+[18:13:15] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - DoubleDoors (1.4.7)
-[20:38:07] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (10):
+[18:13:15] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (10):
  - AxiomPaper (5.0.4+26.2), DiscordSRV (1.30.5), GSit (3.5.1), LockedChestsPlugin (1.4), SimpleTpa (8.0), SkinsRestorer (15.12.5), ViaBackwards (5.11.0), ViaVersion (5.11.1-SNAPSHOT), WorldEdit (7.4.4+7546-f9e033f), voicechat (2.6.21)
-[20:41:39] [ServerMain/WARN]: resource-pack-id missing, using default of 4a3f0a6e-a507-3392-84db-25c40f1d7e56
-[20:41:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[20:42:50] [ServerMain/INFO]: Loaded 1585 recipes
-[20:42:50] [ServerMain/INFO]: Loaded 1688 advancements
-[20:42:50] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[20:42:52] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 2 099,5ms
-[20:42:53] [ServerMain/WARN]: resource-pack-id missing, using default of 4a3f0a6e-a507-3392-84db-25c40f1d7e56
-[20:42:53] [Server thread/INFO]: Starting minecraft server version 26.2
-[20:42:53] [Server thread/INFO]: Loading properties
-[20:42:54] [Server thread/INFO]: This server is running Purpur version 26.2-2608-HEAD@ed29e99 (2026-07-13T02:04:00Z) (Implementing API version 26.2.build.2608-stable)
-[20:42:54] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[20:42:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:42:55] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:42:57] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[20:42:58] [Server thread/INFO]: Default game type: SURVIVAL
-[20:42:58] [Server thread/INFO]: Generating keypair
-[20:42:58] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:42:59] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[20:42:59] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[20:43:01] [Server thread/INFO]: [DiscordSRV] Unknown user language PT.
-[20:43:01] [Server thread/INFO]: [DiscordSRV] If you fluently speak PT as well as English, see the GitHub repo to translate it!
-[20:43:02] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.1-SNAPSHOT
-[20:43:02] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.1-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
-[20:43:05] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[20:43:06] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[20:43:07] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
-[20:43:07] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.4+7546-f9e033f
-[20:43:09] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@68ac94e2]
-[20:43:09] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.6.21
-[20:43:09] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.5
-[20:43:09] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v8.0
-[20:43:09] [Server thread/INFO]: [LockedChestsPlugin] Loading server plugin LockedChestsPlugin v1.4
-[20:43:09] [Server thread/INFO]: [GSit] Loading server plugin GSit v3.5.1
-[20:43:10] [Server thread/INFO]: [DoubleDoors] Loading server plugin DoubleDoors v1.4.7
-[20:43:10] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.30.5
-[20:43:10] [Server thread/INFO]: [AxiomPaper] Loading server plugin AxiomPaper v5.0.4+26.2
-[20:43:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:43:10] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.4+7546-f9e033f
-[20:43:10] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[20:43:10] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[20:43:12] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v26_2.PaperweightAdapter as the Bukkit adapter
-[20:43:12] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.5
-[20:43:16] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.2.0.
-[20:43:18] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[20:43:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:43:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:43:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:43:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:43:18] [Server thread/INFO]: Preparing level "world"
-[20:43:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:43:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[20:43:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
-[20:43:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
-[20:43:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
-[20:43:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[20:43:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:43:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.5
-[20:43:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 98b9488
-[20:43:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[20:43:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:43:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[20:43:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
-[20:43:26] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
-[20:43:26] [Server thread/INFO]: Preparing spawn area: 100%
-[20:43:26] [Server thread/INFO]: Prepared spawn area in 3 ms
-[20:43:26] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[20:43:26] [Server thread/INFO]: Prepared spawn area in 1 ms
-[20:43:26] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[20:43:26] [Server thread/INFO]: Prepared spawn area in 2 ms
-[20:43:26] [Server thread/INFO]: Done preparing level "world" (7.657s)
-[20:43:26] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.1-SNAPSHOT
-[20:43:26] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
-[20:43:26] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
-[20:43:26] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.21
-[20:43:26] [Server thread/INFO]: [voicechat] Initializing compatibility for version 26.2.build.2608-stable
-[20:43:26] [Server thread/INFO]: [voicechat] Compatibility version 20
-[20:43:26] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[20:43:26] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
-[20:43:26] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v8.0
-[20:43:26] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[20:43:26] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 8.0
-[20:43:27] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[20:43:27] [Server thread/INFO]: [LockedChestsPlugin] Enabling LockedChestsPlugin v1.4
-[20:43:27] [Server thread/INFO]: [GSit] Enabling GSit v3.5.1
-[20:43:27] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[20:43:27] [Server thread/INFO]: [DoubleDoors] Enabling DoubleDoors v1.4.7
-[20:43:28] [Server thread/INFO]: [DoubleDoors] Built-in updater checks are enabled for DoubleDoors.
-[20:43:28] [Server thread/INFO]: [DoubleDoors] DoubleDoors enabled.
-[20:43:28] [Server thread/INFO]: [DoubleDoors] Server API version: 26.2.build.2608-stable
-[20:43:28] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.30.5
-[20:43:28] [Server thread/INFO]: [AxiomPaper] Enabling AxiomPaper v5.0.4+26.2
-[20:43:30] [Server thread/INFO]: [spark] Starting background profiler...
-[20:43:30] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[20:43:31] [pool-19-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (da9e027f7acd76e0f91d53a11e5b53832ac36e92)
-[20:43:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:43:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[20:43:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[20:43:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:43:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:43:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:43:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:43:32] [Server thread/INFO]: Running delayed init tasks
-[20:43:32] [Server thread/INFO]: Done (359.906s)! For help, type "help"
-[20:43:33] [Server thread/INFO]: [voicechat] Loading plugins
-[20:43:33] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[20:43:33] [Server thread/INFO]: [voicechat] Initializing plugins
-[20:43:33] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[20:43:33] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[20:43:33] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[20:43:33] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
-[20:43:33] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[20:43:34] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
-[20:43:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[20:43:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[20:43:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:🎮🖥️smp-console(1527290057826762812)
-[20:43:36] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
-[20:44:16] [User Authenticator #0/INFO]: UUID of player coralinelear69 is 25e37a67-dff1-3d9b-8c42-439fbb557fc3
-[20:44:16] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [DiscordSRV]
-[20:44:32] [Server thread/INFO]: coralinelear69 joined the game
-[20:44:32] [Server thread/INFO]: coralinelear69[/26.83.252.203:63474] logged in with entity id 1 at ([minecraft:overworld]142.31153150866484, 63.0, -754.0092503013501)
-[20:45:48] [Server thread/INFO]: [Not Secure] [Server] idh
-[20:45:51] [Server thread/INFO]: [Not Secure] [Server] dih
-[20:45:55] [Async Chat Thread - #1/INFO]: [Not Secure] <coralinelear69> hop on mc
-[20:45:59] [User Authenticator #1/INFO]: UUID of player notch is 42653081-a90e-3475-b3d6-3550cdb43f8e
-[20:46:03] [Server thread/INFO]: notch joined the game
-[20:46:03] [Server thread/INFO]: notch[/26.50.69.53:49220] logged in with entity id 904 at ([minecraft:overworld]154.5, 63.0, -963.5)
-[20:46:04] [Server thread/INFO]: [voicechat] Received secret request of notch (20)
-[20:46:04] [Server thread/INFO]: [voicechat] Sent secret to notch
-[20:46:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 42653081-a90e-3475-b3d6-3550cdb43f8e
-[20:46:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 42653081-a90e-3475-b3d6-3550cdb43f8e
-[20:46:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player notch (42653081-a90e-3475-b3d6-3550cdb43f8e) successfully connected to voice chat
-[20:46:09] [Async Chat Thread - #1/INFO]: [Not Secure] <coralinelear69> WHO THE FU-
-[20:46:58] [Server thread/INFO]: notch lost connection: Disconnected
-[20:46:58] [Server thread/INFO]: [voicechat] Disconnecting client notch
-[20:46:58] [Server thread/INFO]: notch left the game
-[20:47:13] [Server thread/INFO]: [Not Secure] [Server] HOLY SHIT IS THAT NOTCH
-[20:47:27] [User Authenticator #2/INFO]: UUID of player notch is 42653081-a90e-3475-b3d6-3550cdb43f8e
-[20:47:31] [Server thread/INFO]: notch joined the game
-[20:47:31] [Server thread/INFO]: notch[/26.50.69.53:63609] logged in with entity id 1211 at ([minecraft:overworld]164.48109829782308, 69.0, -841.7443397674261)
-[20:47:31] [Server thread/INFO]: [voicechat] Received secret request of notch (20)
-[20:47:31] [Server thread/INFO]: [voicechat] Sent secret to notch
-[20:47:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 42653081-a90e-3475-b3d6-3550cdb43f8e
-[20:47:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 42653081-a90e-3475-b3d6-3550cdb43f8e
-[20:47:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player notch (42653081-a90e-3475-b3d6-3550cdb43f8e) successfully connected to voice chat
-[20:47:50] [Server thread/INFO]: notch lost connection: Disconnected
-[20:47:50] [Server thread/INFO]: [voicechat] Disconnecting client notch
-[20:47:50] [Async Chat Thread - #2/INFO]: [Not Secure] <coralinelear69> hi
-[20:47:50] [Server thread/INFO]: notch left the game
-[20:47:55] [Async Chat Thread - #2/INFO]: [Not Secure] <coralinelear69> coward
-[20:48:52] [Server thread/INFO]: coralinelear69 was killed by Witch using magic
-[20:49:40] [Server thread/INFO]: [Not Secure] [Server]  jfefgfgfgfg
-[20:49:40] [Server thread/INFO]: /26.50.69.53:63634 lost connection: Disconnected
-[20:49:54] [Server thread/INFO]: /26.50.69.53:63638 lost connection: Disconnected
-[20:50:11] [Server thread/INFO]: Gave 2000 [Bedrock] to coralinelear69
-[20:50:12] [Server thread/INFO]: Gave 2000 [Bedrock] to coralinelear69
-[20:50:12] [Server thread/INFO]: Gave 2000 [Bedrock] to coralinelear69
-[20:50:12] [Server thread/INFO]: Gave 2000 [Bedrock] to coralinelear69
-[20:50:13] [Server thread/INFO]: Gave 2000 [Bedrock] to coralinelear69
-[20:50:13] [Server thread/INFO]: Gave 2000 [Bedrock] to coralinelear69
-[20:50:13] [Server thread/INFO]: Gave 2000 [Bedrock] to coralinelear69
-[20:50:14] [Server thread/INFO]: Gave 2000 [Bedrock] to coralinelear69
-[20:50:14] [Server thread/INFO]: Gave 2000 [Bedrock] to coralinelear69
-[20:50:14] [Server thread/INFO]: Gave 2000 [Bedrock] to coralinelear69
-[20:50:14] [Server thread/INFO]: Gave 2000 [Bedrock] to coralinelear69
-[20:50:15] [Server thread/INFO]: Gave 2000 [Bedrock] to coralinelear69
-[20:50:15] [Server thread/INFO]: [Not Secure] [Server]  jfefgfgfgfg
-[20:50:17] [Server thread/INFO]: Gave 2000 [Bedrock] to coralinelear69
-[20:50:17] [Server thread/INFO]: Gave 2000 [Bedrock] to coralinelear69
-[20:50:17] [Server thread/INFO]: Gave 2000 [Bedrock] to coralinelear69
-[20:50:18] [Server thread/INFO]: Gave 2000 [Bedrock] to coralinelear69
-[20:50:18] [Server thread/INFO]: Gave 2000 [Bedrock] to coralinelear69
-[20:50:19] [Server thread/INFO]: Gave 2000 [Bedrock] to coralinelear69
-[20:50:19] [Server thread/INFO]: Gave 2000 [Bedrock] to coralinelear69
-[20:50:55] [Server thread/INFO]: /26.50.69.53:63660 lost connection: Disconnected
-[20:51:46] [Server thread/INFO]: Unknown or incomplete command. See below for error
-sa<--[HERE]
-[20:51:46] [User Authenticator #3/INFO]: UUID of player TaterCater14 is a8d75081-e9db-3a01-b5cc-9a27f851fdda
-[20:51:51] [Server thread/INFO]: TaterCater14 joined the game
-[20:51:51] [Server thread/INFO]: TaterCater14[/26.50.69.53:63699] logged in with entity id 2418 at ([minecraft:overworld]114.35296655760013, 91.87120714732282, -840.2596654035509)
-[20:51:52] [Server thread/INFO]: [voicechat] Received secret request of TaterCater14 (20)
-[20:51:52] [Server thread/INFO]: [voicechat] Sent secret to TaterCater14
-[20:51:52] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player a8d75081-e9db-3a01-b5cc-9a27f851fdda
-[20:51:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player a8d75081-e9db-3a01-b5cc-9a27f851fdda
-[20:51:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player TaterCater14 (a8d75081-e9db-3a01-b5cc-9a27f851fdda) successfully connected to voice chat
-[20:51:58] [Server thread/INFO]: [Not Secure] [Server] tater the cater
-[20:52:10] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:11] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:11] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:12] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:12] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:12] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:12] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:13] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:13] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:13] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:14] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:14] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:14] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:15] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:15] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:16] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:16] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:16] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:17] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:17] [Async Chat Thread - #5/INFO]: [Not Secure] <TaterCater14> i have heard of a faker
-[20:52:17] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:17] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:18] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:18] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:18] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:19] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:19] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:20] [Async Chat Thread - #5/INFO]: [Not Secure] <TaterCater14> named notch
-[20:52:22] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:22] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:23] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:23] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:23] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:24] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:24] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:25] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:25] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:25] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:26] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:26] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:26] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:27] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:27] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:27] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:27] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:28] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:28] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:29] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:29] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:29] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:30] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:30] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:30] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:31] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:31] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:31] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:32] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:32] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:33] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:33] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:33] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:34] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:34] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:35] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:35] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:36] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:36] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:37] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:37] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:38] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:39] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:40] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:40] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:41] [Server thread/INFO]: Gave 2000 [Bedrock] to TaterCater14
-[20:52:42] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:42] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:43] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:43] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:44] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:44] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:45] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:45] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:45] [Server thread/INFO]: Gave 64 [Bedrock] to TaterCater14
-[20:52:59] [Server thread/INFO]: Killed 1534 entities
-[20:53:41] [Server thread/INFO]: TaterCater14 lost connection: Disconnected
-[20:53:41] [Server thread/INFO]: [voicechat] Disconnecting client TaterCater14
-[20:53:44] [Server thread/INFO]: TaterCater14 left the game
-[20:53:44] [Server thread/INFO]: [Not Secure] [Server] ppp
-[20:57:44] [User Authenticator #4/INFO]: UUID of player GAB644 is 9a02a6aa-1b7a-30bc-9460-86d57be437e5
-[20:58:02] [Server thread/INFO]: GAB644 joined the game
-[20:58:02] [Server thread/INFO]: GAB644[/26.147.50.150:60836] logged in with entity id 4018 at ([minecraft:overworld]226.0676501708047, 77.0, -862.6291359172708)
-[20:58:07] [Server thread/INFO]: [voicechat] Received secret request of GAB644 (20)
-[20:58:07] [Server thread/INFO]: [voicechat] Sent secret to GAB644
-[20:58:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 9a02a6aa-1b7a-30bc-9460-86d57be437e5
-[20:58:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 9a02a6aa-1b7a-30bc-9460-86d57be437e5
-[20:58:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player GAB644 (9a02a6aa-1b7a-30bc-9460-86d57be437e5) successfully connected to voice chat
-[20:58:17] [Async Chat Thread - #8/INFO]: [Not Secure] <GAB644> dih
-[20:58:18] [Async Chat Thread - #9/INFO]: [Not Secure] <GAB644> hi
-[20:58:38] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[20:59:05] [Server thread/INFO]: GAB644 issued server command: /replacenear 10 oak_planks dirt
-[20:59:14] [Server thread/INFO]: GAB644 issued server command: /undo
-[20:59:28] [Server thread/INFO]: GAB644 issued server command: /replacenear 10 oak_planks dirt
-[20:59:51] [Async Chat Thread - #11/INFO]: [Not Secure] <GAB644> why is ur house dirt
-[21:00:46] [Async Chat Thread - #11/INFO]: [Not Secure] <coralinelear69> please change it back to its or
-[21:00:47] [Async Chat Thread - #10/INFO]: [Not Secure] <GAB644> why is it all dirt
-[21:00:49] [Server thread/INFO]: GAB644 issued server command: /undo
-[21:00:52] [Async Chat Thread - #11/INFO]: [Not Secure] <coralinelear69> original form
-[21:00:53] [Server thread/INFO]: GAB644 issued server command: /replacenear 10 oak_planks dirt
-[21:01:01] [Async Chat Thread - #10/INFO]: [Not Secure] <GAB644> ??
-[21:01:15] [Server thread/INFO]: GAB644 issued server command: /replacenear 10 oak_planks dirt
-[21:01:21] [Server thread/INFO]: GAB644 issued server command: /undo
-[21:01:22] [Async Chat Thread - #10/INFO]: [Not Secure] <coralinelear69> please change it back
-[21:01:23] [Server thread/INFO]: GAB644 issued server command: /undo
-[21:01:27] [Async Chat Thread - #11/INFO]: [Not Secure] <coralinelear69> thank you
-[21:01:42] [Server thread/INFO]: GAB644 issued server command: /replacenear 10 oak_planks diamond_block
-[21:01:46] [Server thread/INFO]: GAB644 issued server command: /replacenear 10 oak_planks diamond_block
-[21:01:47] [Server thread/INFO]: GAB644 issued server command: /replacenear 10 oak_planks diamond_block
-[21:02:10] [Async Chat Thread - #11/INFO]: [Not Secure] <coralinelear69> dont mind if i doooo
-[21:02:14] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:02:56] [Async Chat Thread - #10/INFO]: [Not Secure] <GAB644> awesome house dude
-[21:03:11] [Async Chat Thread - #10/INFO]: [Not Secure] <GAB644> it actually looks nostalgic
-[21:03:20] [Async Chat Thread - #10/INFO]: [Not Secure] <coralinelear69> it doe
-[21:03:22] [Async Chat Thread - #11/INFO]: [Not Secure] <coralinelear69> s
-[21:03:26] [Server thread/INFO]: GAB644 issued server command: /replacenear 10 oak_wood gold_block
-[21:03:33] [Server thread/INFO]: GAB644 issued server command: /replacenear 10 oak_log gold_block
-[21:03:44] [Server thread/INFO]: GAB644 issued server command: /replacenear 10 oak_log gold_block
-[21:03:46] [Server thread/INFO]: GAB644 issued server command: /replacenear 10 oak_log gold_block
-[21:03:56] [Server thread/INFO]: coralinelear69 issued server command: /give @s redstone_ore 64
-[21:03:56] [Server thread/INFO]: [coralinelear69: Gave 64 [Redstone Ore] to coralinelear69]
-[21:04:45] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:04:51] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:05:06] [Server thread/INFO]: GAB644 issued server command: /give GAB644 minecraft:command_block
-[21:05:06] [Server thread/INFO]: [GAB644: Gave 1 [Command Block] to GAB644]
-[21:05:09] [Async Chat Thread - #12/INFO]: [Not Secure] <coralinelear69> anyways can you change it back now?
-[21:05:27] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:05:52] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:06:05] [Server thread/INFO]: coralinelear69 issued server command: /gamemode creative
-[21:06:05] [Server thread/INFO]: [coralinelear69: Set own game mode to Creative Mode]
-[21:06:25] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:06:38] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:06:52] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:06:55] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:06:57] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:07:03] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:07:10] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:07:12] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:07:55] [Server thread/INFO]: coralinelear69 has made the advancement [Cover Me with Diamonds]
-[21:08:10] [Async Chat Thread - #14/INFO]: [Not Secure] <GAB644> melon trap door
-[21:08:15] [Async Chat Thread - #15/INFO]: [Not Secure] <coralinelear69> epic
-[21:09:16] [Server thread/INFO]: [Not Secure] [Server] idh
-[21:10:46] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:11:33] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:12:17] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:12:53] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:13:31] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:13:37] [Server thread/INFO]: coralinelear69 issued server command: /give @s lapis_lazuli 64
-[21:13:37] [Server thread/INFO]: [coralinelear69: Gave 64 [Lapis Lazuli] to coralinelear69]
-[21:13:47] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:13:49] [Server thread/INFO]: coralinelear69 has made the advancement [Enchanter]
-[21:14:04] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:14:33] [Server thread/INFO]: GAB644 issued server command: /info
-[21:14:53] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:15:00] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:15:47] [Async Chat Thread - #18/INFO]: [Not Secure] <coralinelear69> can you set my house back to normal now?
-[21:15:52] [Server thread/INFO]: GAB644 issued server command: /undo
-[21:15:53] [Server thread/INFO]: GAB644 issued server command: /undo
-[21:15:54] [Server thread/INFO]: GAB644 issued server command: /undo
-[21:15:54] [Server thread/INFO]: GAB644 issued server command: /undo
-[21:15:55] [Server thread/INFO]: GAB644 issued server command: /undo
-[21:15:57] [Server thread/INFO]: GAB644 issued server command: /undo
-[21:15:57] [Server thread/INFO]: GAB644 issued server command: /info
-[21:15:59] [Server thread/INFO]: GAB644 issued server command: /undo
-[21:16:00] [Async Chat Thread - #17/INFO]: [Not Secure] <coralinelear69> ty
-[21:16:16] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:16:17] [Server thread/INFO]: coralinelear69 issued server command: /gamemode survival
-[21:16:17] [Server thread/INFO]: [coralinelear69: Set own game mode to Survival Mode]
-[21:16:28] [Server thread/INFO]: [GAB644: Set own game mode to Adventure Mode]
-[21:16:29] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:16:37] [Server thread/INFO]: [GAB644: Set own game mode to Adventure Mode]
-[21:16:39] [Server thread/INFO]: GAB644 tried to swim in lava
-[21:16:43] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:16:58] [Server thread/INFO]: coralinelear69 issued server command: /gamemode spectator
-[21:16:58] [Server thread/INFO]: [coralinelear69: Set own game mode to Spectator Mode]
-[21:17:32] [Server thread/INFO]: coralinelear69 issued server command: /gamemode creative
-[21:17:32] [Server thread/INFO]: [coralinelear69: Set own game mode to Creative Mode]
-[21:17:45] [Server thread/INFO]: [GAB644: Set own game mode to Survival Mode]
-[21:17:48] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:18:02] [Server thread/INFO]: GAB644 issued server command: /clear
-[21:18:02] [Server thread/INFO]: [GAB644: Removed 4 item(s) from player GAB644]
-[21:18:03] [Server thread/INFO]: [GAB644: Set own game mode to Survival Mode]
-[21:18:19] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:18:26] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:18:33] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:18:37] [Async Chat Thread - #20/INFO]: [Not Secure] <GAB644> yo dude
-[21:18:40] [Async Chat Thread - #19/INFO]: [Not Secure] <GAB644> wanna pvp
-[21:18:44] [Async Chat Thread - #19/INFO]: [Not Secure] <coralinelear69> no thanks
-[21:18:55] [Async Chat Thread - #19/INFO]: [Not Secure] <GAB644> aww cmon
-[21:18:59] [Async Chat Thread - #19/INFO]: [Not Secure] <coralinelear69> i dont like pvp :P
-[21:19:04] [Async Chat Thread - #19/INFO]: [Not Secure] <GAB644> try
-[21:19:10] [Async Chat Thread - #19/INFO]: [Not Secure] <coralinelear69> im also very...VERY trash at it
-[21:19:23] [Async Chat Thread - #20/INFO]: [Not Secure] <GAB644> how about this check out my sword
-[21:19:37] [Async Chat Thread - #19/INFO]: [Not Secure] <coralinelear69> wow
-[21:19:44] [Async Chat Thread - #19/INFO]: [Not Secure] <coralinelear69> this is cool
-[21:19:48] [Async Chat Thread - #19/INFO]: [Not Secure] <GAB644> yeah keep it
-[21:19:56] [Async Chat Thread - #19/INFO]: [Not Secure] <coralinelear69> i dropped that by accident
-[21:19:59] [Async Chat Thread - #19/INFO]: [Not Secure] <coralinelear69> oh ok
-[21:20:07] [Server thread/INFO]: coralinelear69 issued server command: /gamemode survival
-[21:20:07] [Server thread/INFO]: [coralinelear69: Set own game mode to Survival Mode]
-[21:20:10] [Async Chat Thread - #19/INFO]: [Not Secure] <GAB644> u can instant kill anythiong
-[21:20:14] [Async Chat Thread - #20/INFO]: [Not Secure] <coralinelear69> epic
-[21:20:51] [Server thread/INFO]: GAB644 issued server command: /give @p wooden_sword[minecraft:enchantments={sharpness:255,knockback:255,fire_aspect:255},minecraft:item_name="Admin Sword"]
-[21:20:52] [Server thread/INFO]: [GAB644: Gave 1 [Admin Sword] to GAB644]
-[21:20:55] [Async Chat Thread - #20/INFO]: [Not Secure] <GAB644> command is /give @p wooden_sword[minecraft:enchantments={sharpness:255,knockback:255,fire_aspect:255},minecraft:item_name="Admin Sword"]
-[21:21:07] [Server thread/INFO]: GAB644 issued server command: /tp coralinelear69
-[21:21:07] [Server thread/INFO]: [GAB644: Teleported GAB644 to coralinelear69]
-[21:21:24] [Server thread/INFO]: coralinelear69 was slain by GAB644
-[21:21:29] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:21:31] [Async Chat Thread - #19/INFO]: [Not Secure] <GAB644> HEHHE
-[21:21:38] [Server thread/INFO]: coralinelear69 issued server command: /back
-[21:21:48] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:21:51] [Server thread/INFO]: [GAB644: Set own game mode to Adventure Mode]
-[21:21:52] [Server thread/INFO]: coralinelear69 issued server command: /back
-[21:21:52] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:21:57] [Server thread/INFO]: [GAB644: Set own game mode to Adventure Mode]
-[21:21:58] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:21:59] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:22:06] [Server thread/INFO]: coralinelear69 issued server command: /back
-[21:22:15] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:22:22] [Server thread/INFO]: [GAB644: Set own game mode to Survival Mode]
-[21:22:23] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Admin] matola200 > dih
-[21:22:25] [Async Chat Thread - #19/INFO]: [Not Secure] <GAB644> dih
-[21:22:28] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Admin] matola200 > dih
-[21:22:30] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:22:30] [Server thread/INFO]: [GAB644: Set own game mode to Survival Mode]
-[21:22:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Admin] matola200 > this is such a dih mom ent
-[21:22:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Admin] matola200 > i am dihhing everywhere
-[21:22:51] [Async Chat Thread - #20/INFO]: [Not Secure] <GAB644> im googning it
-[21:23:01] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Admin] matola200 > im it
-[21:24:59] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:25:01] [Server thread/INFO]: [GAB644: Set own game mode to Survival Mode]
-[21:25:04] [Server thread/INFO]: GAB644 has completed the challenge [It Spreads]
-[21:25:05] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:25:13] [Server thread/INFO]: [GAB644: Set own game mode to Survival Mode]
-[21:25:59] [Server thread/INFO]: GAB644 fell from a high place
-[21:26:02] [Server thread/INFO]: GAB644 issued server command: /back
-[21:26:08] [Server thread/INFO]: GAB644 issued server command: /back
-[21:26:30] [Server thread/WARN]: GAB644 moved too quickly! 7.147708157176112,-2.823240724935758,8.788585136043935
-[21:26:43] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:26:57] [Server thread/WARN]: GAB644 moved too quickly! -20.8781637314392,-7.109254842018608,17.206323525124844
-[21:27:25] [Server thread/INFO]: [GAB644: Set own game mode to Survival Mode]
-[21:27:40] [Server thread/INFO]: GAB644 was slain by Warden
-[21:27:44] [Server thread/INFO]: GAB644 issued server command: /back
-[21:27:56] [Server thread/INFO]: GAB644 was slain by Warden
-[21:27:59] [Server thread/INFO]: GAB644 issued server command: /back
-[21:28:32] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:28:34] [Server thread/INFO]: [GAB644: Set own game mode to Survival Mode]
-[21:28:34] [Server thread/INFO]: GAB644 was slain by Warden
-[21:28:37] [Server thread/INFO]: GAB644 issued server command: /back
-[21:29:14] [Async Chat Thread - #21/INFO]: [Not Secure] <coralinelear69> found a mineshaft
-[21:29:35] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:29:38] [Server thread/INFO]: GAB644 issued server command: /tp coralinelear69
-[21:29:38] [Server thread/INFO]: [GAB644: Teleported GAB644 to coralinelear69]
-[21:29:44] [Async Chat Thread - #21/INFO]: [Not Secure] <coralinelear69> up there
-[21:31:21] [Server thread/INFO]: GAB644 issued server command: /kill
-[21:31:21] [Server thread/INFO]: GAB644 was killed
-[21:31:21] [Server thread/INFO]: [GAB644: Killed GAB644]
-[21:33:20] [Server thread/INFO]: [GAB644: Set own game mode to Survival Mode]
-[21:33:24] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:33:24] [Server thread/INFO]: [GAB644: Set own game mode to Survival Mode]
-[21:33:25] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:33:26] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:33:38] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:33:43] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:34:12] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:34:31] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:34:33] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:34:44] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:34:45] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:34:54] [Server thread/INFO]: coralinelear69 issued server command: /gamemode creative
-[21:34:54] [Server thread/INFO]: [coralinelear69: Set own game mode to Creative Mode]
-[21:35:02] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
-[21:35:06] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
-[21:36:00] [Server thread/INFO]: coralinelear69 issued server command: /gamemode survival
-[21:36:00] [Server thread/INFO]: [coralinelear69: Set own game mode to Survival Mode]
-[21:36:12] [Server thread/INFO]: GAB644 issued server command: /save-all
-[21:36:15] [Server thread/INFO]: [GAB644: Saved the game]
-[21:37:17] [Server thread/INFO]: GAB644 issued server command: /weather clear
-[21:37:17] [Server thread/INFO]: [GAB644: Set the weather to clear]
-[21:42:25] [Server thread/INFO]: GAB644 lost connection: Disconnected
-[21:42:26] [Server thread/INFO]: [voicechat] Disconnecting client GAB644
-[21:42:30] [Server thread/INFO]: GAB644 left the game
-[21:43:27] [Server thread/INFO]: [Not Secure] [Server] did you know that                                                                                and it                                                ?
-[21:46:52] [Server thread/INFO]: coralinelear69 was slain by Cave Spider
-[21:46:57] [Server thread/INFO]: coralinelear69 issued server command: /back
-[21:48:16] [User Authenticator #5/INFO]: UUID of player matola200 is c85f97cc-c420-3fe8-ab65-7ccaaa032776
-[21:48:19] [Netty NIO IO #0/WARN]: [ViaBackwards] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
-[21:48:19] [Server thread/INFO]: matola200 joined the game
-[21:48:19] [Server thread/INFO]: matola200[/26.100.4.65:63219] logged in with entity id 11542 at ([minecraft:overworld]168.87781667210777, 154.28987940776926, -871.5229653816252)
-[21:48:25] [Async Chat Thread - #25/INFO]: [Not Secure] <coralinelear69> hi matola
-[21:48:44] [Async Chat Thread - #25/INFO]: [Not Secure] <matola200> oh my god
-[21:48:48] [Async Chat Thread - #25/INFO]: [Not Secure] <matola200> i am on windows 7
-[21:48:50] [Server thread/INFO]: [Not Secure] [Server] no way hes running it on 7 and its 1 fps
-[21:48:52] [Async Chat Thread - #25/INFO]: [Not Secure] <matola200> playing minecraft
-[21:49:07] [Async Chat Thread - #25/INFO]: [Not Secure] <matola200> actually 4 fps but whatever
-[21:49:15] [Async Chat Thread - #25/INFO]: [Not Secure] <matola200> jeez i really need to allocate a bit more ram
-[21:49:18] [Async Chat Thread - #25/INFO]: [Not Secure] <matola200> and also 3d accel
-[21:49:20] [Server thread/INFO]: [Not Secure] [Server] "erm actually 4"
-[21:49:21] [Async Chat Thread - #25/INFO]: [Not Secure] <matola200> hold on i will be back
-[21:49:28] [Server thread/INFO]: matola200 lost connection: Disconnected
-[21:49:28] [Server thread/INFO]: [voicechat] Disconnecting client matola200
-[21:49:29] [Server thread/INFO]: matola200 left the game
-[21:50:02] [Server thread/INFO]: coralinelear69 issued server command: /back
-[21:50:35] [Server thread/INFO]: Gave 1 [Shield] to coralinelear69
-[21:52:02] [Server thread/INFO]: [Not Secure] [Server] you can do shift + m1 on the item
-[21:52:12] [Server thread/INFO]: [Not Secure] [Server] and it will instantly go to the place
-[21:52:56] [Server thread/INFO]: Unknown or incomplete command. See below for error
-p<--[HERE]
-[21:53:16] [Server thread/INFO]: [Not Secure] [Server] and it will instantly go to the place
-[21:53:17] [Server thread/INFO]: [Not Secure] [Server] and it will instantly go to the place
-[21:53:19] [Server thread/INFO]: [Not Secure] [Server] you can do shift + m1 on the item
-[21:53:21] [Server thread/INFO]: [Not Secure] [Server] shit
-[21:53:24] [Async Chat Thread - #27/INFO]: [Not Secure] <coralinelear69> ok
-[21:59:57] [Server thread/INFO]: [Not Secure] [Server] brrrraaaaaaaap
-[22:00:07] [Async Chat Thread - #29/INFO]: [Not Secure] <coralinelear69> OH MY
-[22:00:30] [Async Chat Thread - #29/INFO]: [Not Secure] <coralinelear69> GO-
-[22:01:19] [Server thread/INFO]: coralinelear69 issued server command: /gamemode creative
-[22:01:19] [Server thread/INFO]: [coralinelear69: Set own game mode to Creative Mode]
-[22:01:48] [Server thread/INFO]: [Not Secure] [Server] hello its a me, have you ever wanted movies free? download movies free at mov- if you dont want to download frees movie then-
-[22:03:14] [Server thread/INFO]: coralinelear69 issued server command: /time set day
-[22:03:14] [Server thread/INFO]: [coralinelear69: Set minecraft:overworld to time marker minecraft:day]
-[22:06:34] [Server thread/INFO]: [Not Secure] [Server] i gtg
-[22:06:37] [Server thread/INFO]: [Not Secure] [Server] sorry
-[22:06:42] [Server thread/INFO]: Stopping the server
-[22:06:42] [Server thread/INFO]: Stopping server
-[22:06:42] [Server thread/INFO]: [AxiomPaper] Disabling AxiomPaper v5.0.4+26.2
-[22:06:42] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.30.5
-[22:06:43] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 609ms
-[22:06:43] [Server thread/INFO]: [DoubleDoors] Disabling DoubleDoors v1.4.7
-[22:06:43] [Server thread/INFO]: [DoubleDoors] DoubleDoors disabled.
-[22:06:43] [Server thread/INFO]: [GSit] Disabling GSit v3.5.1
-[22:06:43] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
-[22:06:43] [Server thread/INFO]: [LockedChestsPlugin] Disabling LockedChestsPlugin v1.4
-[22:06:43] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v8.0
-[22:06:43] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[22:06:43] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 8.0
-[22:06:43] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.5
-[22:06:43] [Server thread/INFO]: [voicechat] Disabling voicechat v2.6.21
-[22:06:43] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.4.4+7546-f9e033f
-[22:06:43] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[22:06:43] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.11.0
-[22:06:43] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.11.1-SNAPSHOT
-[22:06:43] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[22:06:43] [Server thread/INFO]: Saving players
-[22:06:43] [Server thread/INFO]: coralinelear69 lost connection: Server closed
-[22:06:43] [Server thread/INFO]: coralinelear69 left the game
-[22:06:43] [Server thread/INFO]: Saving worlds
-[22:06:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:06:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
-[22:06:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
-[22:06:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
-[22:06:47] [spark-java-sampler-0-5/WARN]: [spark] Timed out waiting for world statistics
-[22:06:48] [Server thread/INFO]: [ChunkHolderManager] Saved 26 block chunks, 204 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 3,52s
-[22:06:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
-[22:06:48] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
-[22:06:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22:06:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
-[22:06:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
-[22:06:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
-[22:06:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0,00s
-[22:06:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
-[22:06:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
-[22:06:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22:06:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
-[22:06:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
-[22:06:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
-[22:06:50] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0,00s
-[22:06:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
-[22:06:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
-[22:06:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:06:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:06:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:06:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:06:50] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[22:06:50] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[22:06:50] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[22:06:50] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[18:13:54] [ServerMain/WARN]: resource-pack-id missing, using default of 4a3f0a6e-a507-3392-84db-25c40f1d7e56
+[18:13:54] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[18:14:54] [ServerMain/INFO]: Loaded 1585 recipes
+[18:14:54] [ServerMain/INFO]: Loaded 1688 advancements
+[18:14:54] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[18:14:57] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 2 707,6ms
+[18:14:58] [ServerMain/WARN]: resource-pack-id missing, using default of 4a3f0a6e-a507-3392-84db-25c40f1d7e56
+[18:14:58] [Server thread/INFO]: Starting minecraft server version 26.2
+[18:14:58] [Server thread/INFO]: Loading properties
+[18:14:58] [Server thread/INFO]: This server is running Purpur version 26.2-2608-HEAD@ed29e99 (2026-07-13T02:04:00Z) (Implementing API version 26.2.build.2608-stable)
+[18:14:59] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:14:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:14:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:15:00] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[18:15:01] [Server thread/INFO]: Default game type: SURVIVAL
+[18:15:01] [Server thread/INFO]: Generating keypair
+[18:15:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:15:01] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[18:15:01] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[18:15:04] [Server thread/INFO]: [DiscordSRV] Unknown user language PT.
+[18:15:04] [Server thread/INFO]: [DiscordSRV] If you fluently speak PT as well as English, see the GitHub repo to translate it!
+[18:15:04] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.1-SNAPSHOT
+[18:15:04] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.1-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[18:15:09] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[18:15:09] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[18:15:10] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
+[18:15:10] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.4+7546-f9e033f
+[18:15:12] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@436c250e]
+[18:15:12] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.6.21
+[18:15:12] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.5
+[18:15:12] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v8.0
+[18:15:12] [Server thread/INFO]: [LockedChestsPlugin] Loading server plugin LockedChestsPlugin v1.4
+[18:15:12] [Server thread/INFO]: [GSit] Loading server plugin GSit v3.5.1
+[18:15:12] [Server thread/INFO]: [DoubleDoors] Loading server plugin DoubleDoors v1.4.7
+[18:15:12] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.30.5
+[18:15:12] [Server thread/INFO]: [AxiomPaper] Loading server plugin AxiomPaper v5.0.4+26.2
+[18:15:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:15:12] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.4+7546-f9e033f
+[18:15:12] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:15:13] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:15:15] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v26_2.PaperweightAdapter as the Bukkit adapter
+[18:15:15] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.5
+[18:15:17] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.2.0.
+[18:15:19] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[18:15:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:15:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:15:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:15:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:15:19] [Server thread/INFO]: Preparing level "world"
+[18:15:26] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[18:15:26] [Server thread/INFO]: Preparing spawn area: 100%
+[18:15:26] [Server thread/INFO]: Prepared spawn area in 13 ms
+[18:15:26] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[18:15:26] [Server thread/INFO]: Prepared spawn area in 5 ms
+[18:15:26] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[18:15:26] [Server thread/INFO]: Prepared spawn area in 11 ms
+[18:15:26] [Server thread/INFO]: Done preparing level "world" (6.438s)
+[18:15:26] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.1-SNAPSHOT
+[18:15:26] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
+[18:15:26] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[18:15:26] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.21
+[18:15:26] [Server thread/INFO]: [voicechat] Initializing compatibility for version 26.2.build.2608-stable
+[18:15:26] [Server thread/INFO]: [voicechat] Compatibility version 20
+[18:15:26] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[18:15:26] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[18:15:26] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v8.0
+[18:15:26] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[18:15:26] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 8.0
+[18:15:26] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[18:15:28] [Server thread/INFO]: [LockedChestsPlugin] Enabling LockedChestsPlugin v1.4
+[18:15:28] [Server thread/INFO]: [GSit] Enabling GSit v3.5.1
+[18:15:28] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[18:15:28] [Server thread/INFO]: [DoubleDoors] Enabling DoubleDoors v1.4.7
+[18:15:29] [Server thread/INFO]: [DoubleDoors] Built-in updater checks are enabled for DoubleDoors.
+[18:15:29] [Server thread/INFO]: [DoubleDoors] DoubleDoors enabled.
+[18:15:29] [Server thread/INFO]: [DoubleDoors] Server API version: 26.2.build.2608-stable
+[18:15:29] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.30.5
+[18:15:29] [Server thread/INFO]: [AxiomPaper] Enabling AxiomPaper v5.0.4+26.2
+[18:15:29] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:15:29] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +===================+
+[18:15:29] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
+[18:15:29] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |-------------------|
+[18:15:29] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode  |
+[18:15:29] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +===================+
+[18:15:29] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:15:29] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.12.5
+[18:15:29] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: 98b9488
+[18:15:29] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
+[18:15:29] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:15:29] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[18:15:29] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[18:15:30] [Server thread/INFO]: [spark] Starting background profiler...
+[18:15:30] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[18:15:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:15:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18:15:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18:15:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:15:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:15:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:15:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:15:31] [Server thread/INFO]: Running delayed init tasks
+[18:15:31] [Server thread/INFO]: Done (175.036s)! For help, type "help"
+[18:15:31] [Server thread/INFO]: [voicechat] Loading plugins
+[18:15:31] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[18:15:31] [Server thread/INFO]: [voicechat] Initializing plugins
+[18:15:31] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[18:15:31] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[18:15:31] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[18:15:31] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[18:15:31] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[18:15:31] [pool-19-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (da9e027f7acd76e0f91d53a11e5b53832ac36e92)
+[18:15:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[18:15:40] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[18:15:43] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[18:15:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:🎮🖥️smp-console(1527290057826762812)
+[18:15:44] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
+[18:15:54] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] gab644 > last time i actually hosted itwas in 8/17/2026
+[18:16:20] [User Authenticator #0/INFO]: UUID of player GAB644 is 9a02a6aa-1b7a-30bc-9460-86d57be437e5
+[18:16:21] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [DiscordSRV]
+[18:16:41] [Server thread/INFO]: GAB644 joined the game
+[18:16:42] [Server thread/INFO]: GAB644[/26.147.50.150:52162] logged in with entity id 1 at ([minecraft:overworld]225.30000001192093, 77.0, -863.4438214608232)
+[18:17:13] [Server thread/INFO]: GAB644 was kicked due to keepalive timeout!
+[18:17:59] [Server thread/INFO]: GAB644 lost connection: Disconnected
+[18:17:59] [Server thread/INFO]: [voicechat] Disconnecting client GAB644
+[18:18:01] [Server thread/INFO]: GAB644 left the game
+[18:18:14] [User Authenticator #1/INFO]: UUID of player GAB644 is 9a02a6aa-1b7a-30bc-9460-86d57be437e5
+[18:18:21] [Server thread/INFO]: GAB644 joined the game
+[18:18:21] [Server thread/INFO]: GAB644[/26.147.50.150:51065] logged in with entity id 821 at ([minecraft:overworld]225.30000001192093, 77.0, -863.4438214608232)
+[18:18:39] [Server thread/INFO]: GAB644 issued server command: /kill
+[18:18:39] [Server thread/INFO]: GAB644 was killed
+[18:18:39] [Server thread/INFO]: [GAB644: Killed GAB644]
+[18:19:22] [Server thread/INFO]: GAB644 was kicked due to keepalive timeout!
+[18:19:29] [Server thread/INFO]: GAB644 lost connection: Disconnected
+[18:19:29] [Server thread/INFO]: [voicechat] Disconnecting client GAB644
+[18:19:29] [Server thread/INFO]: GAB644 left the game
+[18:19:41] [User Authenticator #2/INFO]: UUID of player GAB644 is 9a02a6aa-1b7a-30bc-9460-86d57be437e5
+[18:19:52] [Server thread/INFO]: GAB644 joined the game
+[18:19:52] [Server thread/INFO]: GAB644[/26.147.50.150:51077] logged in with entity id 1605 at ([minecraft:overworld]224.5, 77.0, -862.5)
+[18:20:48] [Async Chat Thread - #0/INFO]: [Not Secure] <GAB644> wow
+[18:28:04] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | really trusted] andrey > wow
+[18:28:08] [Async Chat Thread - #1/INFO]: [Not Secure] <GAB644> WOW
+[18:28:09] [Async Chat Thread - #1/INFO]: [Not Secure] <GAB644> wow
+[18:28:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | really trusted] andrey > WOW
+[18:28:12] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | really trusted] andrey > wow
+[18:28:14] [Async Chat Thread - #1/INFO]: [Not Secure] <GAB644> wow
+[18:28:17] [Async Chat Thread - #1/INFO]: [Not Secure] <GAB644> WOW
+[18:28:18] [Server thread/INFO]: [Not Secure] [Server] wow
+[18:28:22] [Server thread/INFO]: GAB644 issued server command: /gamemode spectator
+[18:28:22] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
+[18:28:24] [Server thread/INFO]: No entity was found
+[18:28:40] [Server thread/INFO]: [Not Secure] [Server] penis
+[18:28:43] [Async Chat Thread - #1/INFO]: [Not Secure] <GAB644> dih
+[18:28:47] [Server thread/INFO]: [Not Secure] [Server] dih
+[18:29:24] [Server thread/INFO]: GAB644 issued server command: /gamemode creative
+[18:29:24] [Server thread/INFO]: [GAB644: Set own game mode to Creative Mode]
+[18:29:27] [Server thread/INFO]: GAB644 issued server command: /gamemode spectator
+[18:29:27] [Server thread/INFO]: [GAB644: Set own game mode to Spectator Mode]
+[18:30:01] [Async Chat Thread - #3/INFO]: [Not Secure] <GAB644> gas station homer simpson
+[18:30:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | really trusted] andrey > dih station
+[18:30:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | really trusted] andrey > i wonder who built it
+[18:33:13] [Server thread/INFO]: GAB644 lost connection: Disconnected
+[18:33:13] [Server thread/INFO]: [voicechat] Disconnecting client GAB644
+[18:33:13] [Server thread/INFO]: GAB644 left the game
